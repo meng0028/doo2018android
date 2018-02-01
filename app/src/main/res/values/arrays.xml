@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_lang_options">
+        <item>@string/pref_lang_label_english</item>
+        <item>@string/pref_lang_label_french</item>
+    </string-array>
+
+    <string-array name="pref_lang_values">
+        <item>@string/pref_lang_english</item>
+        <item>@string/pref_lang_french</item>
+    </string-array>
+
+    <string-array name="pref_category_options">
+        <item>@string/pref_category_all</item>
+        <item>@string/pref_category_religious</item>
+        <item>@string/pref_category_embassies</item>
+        <item>@string/pref_category_government</item>
+        <item>@string/pref_category_functional</item>
+        <item>@string/pref_category_galleries_and_theatres</item>
+        <item>@string/pref_category_academic</item>
+        <item>@string/pref_category_sports_and_leisure</item>
+        <item>@string/pref_category_community_and_care</item>
+        <item>@string/pref_category_business_and_foundations</item>
+        <item>@string/pref_category_museums_archives_historic</item>
+        <item>@string/pref_category_other</item>
+    </string-array>
+
+    <string-array name="pref_category_values">
+        <item>ALL</item>
+        <item>RELIGIOUS</item>
+        <item>EMBASSIES</item>
+        <item>GOVERNMENT</item>
+        <item>FUNCTIONAL</item>
+        <item>GALLERIES_AND_THEATRES</item>
+        <item>ACADEMIC</item>
+        <item>SPORTS_AND_LEISURE</item>
+        <item>COMMUNITY_AND_CARE</item>
+        <item>BUSINESS_AND_FOUNDATIONS</item>
+        <item>MUSEUMS_ARCHIVES_HISTORIC</item>
+        <item>OTHER</item>
+    </string-array>
+
+</resources>

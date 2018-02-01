@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <PreferenceCategory
+        android:title="@string/pref_category_title">
+
+        <ListPreference
+            android:defaultValue="@string/pref_category_default"
+            android:entries="@array/pref_category_options"
+            android:entryValues="@array/pref_category_values"
+            android:key="@string/pref_category_key"
+            android:title="@string/pref_category_label" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_filters_title">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/pref_filter_clear_all_key"
+            android:title="@string/pref_filter_clear_all" />
+
+        <SwitchPreference
+            android:key="@string/pref_filter_accessible_key"
+            android:title="@string/pref_filter_accessible"
+            android:defaultValue="false" />
+
+        <SwitchPreference
+            android:key="@string/pref_filter_bike_parking_key"
+            android:title="@string/pref_filter_bike_parking"
+            android:defaultValue="false" />
+
+        <SwitchPreference
+            android:key="@string/pref_filter_canada150_key"
+            android:title="@string/pref_filter_canada150"
+            android:defaultValue="false" />
+
+        <SwitchPreference
+            android:key="@string/pref_filter_family_friendly_key"
+            android:title="@string/pref_filter_family_friendly"
+            android:defaultValue="false" />
+
+        <SwitchPreference
+            android:key="@string/pref_filter_free_parking_key"
+            android:title="@string/pref_filter_free_parking"
+            android:defaultValue="false" />
+
+        <SwitchPreference
+            android:key="@string/pref_filter_guided_tour_key"
+            android:title="@string/pref_filter_guided_tour"
+            android:defaultValue="false" />
+
+        <SwitchPreference
+            android:key="@string/pref_filter_new_key"
+            android:title="@string/pref_filter_new"
+            android:defaultValue="false" />
+
+        <SwitchPreference
+            android:key="@string/pref_filter_oc_transpo_nearby_key"
+            android:title="@string/pref_filter_oc_transpo_nearby"
+            android:defaultValue="false" />
+
+        <SwitchPreference
+            android:key="@string/pref_filter_open_saturday_key"
+            android:title="@string/pref_filter_open_saturday"
+            android:defaultValue="false" />
+
+        <SwitchPreference
+            android:key="@string/pref_filter_open_sunday_key"
+            android:title="@string/pref_filter_open_sunday"
+            android:defaultValue="false" />
+
+        <SwitchPreference
+            android:key="@string/pref_filter_paid_parking_key"
+            android:title="@string/pref_filter_paid_parking"
+            android:defaultValue="false" />
+
+        <SwitchPreference
+            android:key="@string/pref_filter_public_washrooms_key"
+            android:title="@string/pref_filter_public_washrooms"
+            android:defaultValue="false" />
+
+        <SwitchPreference
+            android:key="@string/pref_filter_shuttle_key"
+            android:title="@string/pref_filter_shuttle"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

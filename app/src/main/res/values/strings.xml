@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">Doors Open Ottawa</string>
+
+    <!-- - - - - - - -->
+    <!-- Menu Items  -->
+    <!-- - - - - - - -->
+    <string name="action_filters">Filters</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- - - - - - - - - -->
+    <!-- Toast Messages  -->
+    <!-- - - - - - - - - -->
+    <string name="buildings_count">%d buildings</string>
+    <string name="buildings_count_singular">%d building</string>
+    <string name="buildings_count_category">%1$d buildings in category %2$s</string>
+    <string name="buildings_count_category_singular">%1$d building in category %2$s</string>
+
+    <!-- - - - - - - -->
+    <!-- Preferences -->
+    <!-- - - - - - - -->
+
+    <!-- Label for the language preference -->
+    <string name="pref_lang_title">Language Preference</string>
+    <string name="pref_lang_label">Select Language</string>
+
+    <!-- Label for English option in language preference -->
+    <string name="pref_lang_label_english">English</string>
+
+    <!-- Label for French option in language preference -->
+    <string name="pref_lang_label_french">French</string>
+
+    <!-- Key name for language preference in SharedPreferences -->
+    <string name="pref_lang_key" translatable="false">LANG</string>
+
+    <!-- Default lang preference -->
+    <string name="pref_lang_default" translatable="false">English</string>
+
+    <!-- Value in SharedPreferences for English -->
+    <string name="pref_lang_english" translatable="false">English</string>
+
+    <!-- Value in SharedPreferences for French -->
+    <string name="pref_lang_french" translatable="false">French</string>
+
+    <!-- Filters -->
+    <string name="pref_filters_title_key" translatable="false">FILTERS</string>
+    <string name="pref_filter_clear_all_key" translatable="false">CLEAR_ALL_FILTERS</string>
+    <string name="pref_show_toast_key" translatable="false">SHOW_TOAST</string>
+    <string name="pref_filter_accessible_key" translatable="false">ACCESSIBLE</string>
+    <string name="pref_filter_bike_parking_key" translatable="false">BIKE_PARKING</string>
+    <string name="pref_filter_canada150_key" translatable="false">CANADA150</string>
+    <string name="pref_filter_family_friendly_key" translatable="false">FAMILY_FRIENDLY</string>
+    <string name="pref_filter_free_parking_key" translatable="false">FREE_PARKING</string>
+    <string name="pref_filter_guided_tour_key" translatable="false">GUIDED_TOUR</string>
+    <string name="pref_filter_new_key" translatable="false">NEW</string>
+    <string name="pref_filter_oc_transpo_nearby_key" translatable="false">OC_TRANSPO_NEARBY</string>
+    <string name="pref_filter_open_saturday_key" translatable="false">OPEN_SATURDAY</string>
+    <string name="pref_filter_open_sunday_key" translatable="false">OPEN_SUNDAY</string>
+    <string name="pref_filter_paid_parking_key" translatable="false">PAID_PARKING</string>
+    <string name="pref_filter_public_washrooms_key" translatable="false">PUBLIC_WASHROOMS</string>
+    <string name="pref_filter_shuttle_key" translatable="false">SHUTTLE</string>
+
+    <string name="pref_filters_title">Building Filters</string>
+    <string name="pref_filter_clear_all">Clear All Filters</string>
+    <string name="pref_filter_accessible">Accessible</string>
+    <string name="pref_filter_bike_parking">Bike Parking</string>
+    <string name="pref_filter_canada150">Canada150</string>
+    <string name="pref_filter_family_friendly">Family Friendly</string>
+    <string name="pref_filter_free_parking">Free Parking</string>
+    <string name="pref_filter_guided_tour">Guided Tour</string>
+    <string name="pref_filter_new">New</string>
+    <string name="pref_filter_oc_transpo_nearby">OC Transpo</string>
+    <string name="pref_filter_open_saturday">Open Saturday</string>
+    <string name="pref_filter_open_sunday">Open Sunday</string>
+    <string name="pref_filter_paid_parking">Paid Parking</string>
+    <string name="pref_filter_public_washrooms">Public Washrooms</string>
+    <string name="pref_filter_shuttle">Shuttle</string>
+
+    <!-- Categories -->
+    <string name="pref_category_title">Building Category</string>
+    <string name="pref_category_label">Select Category</string>
+    <string name="pref_category_key" translatable="false">CATEGORY</string>
+    <string name="pref_category_default" translatable="false">ALL</string>
+    <string name="pref_category_all">All</string>
+    <string name="pref_category_religious">Religious</string>
+    <string name="pref_category_embassies">Embassies</string>
+    <string name="pref_category_government">Government</string>
+    <string name="pref_category_functional">Functional</string>
+    <string name="pref_category_galleries_and_theatres">Galleries and Theatres</string>
+    <string name="pref_category_academic">Academic Institutions</string>
+    <string name="pref_category_sports_and_leisure">Sports and Leisure</string>
+    <string name="pref_category_community_and_care">Community and/or Care Centres</string>
+    <string name="pref_category_business_and_foundations">Business and/or Foundations</string>
+    <string name="pref_category_museums_archives_historic">Museums, Archives and Historic Sites</string>
+    <string name="pref_category_other">Other</string>
+    <string name="emptyBuildingList">No Buildings</string>
+
+</resources>
